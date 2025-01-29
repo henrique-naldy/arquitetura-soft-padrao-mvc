@@ -8,4 +8,4 @@ class PetsTable(Base):
     name = Column(String, nullable=False)
     type = Column(String, nullable=False)
     def __repr__(self):
-        return f"Pets [name={self.name}, type={self,type}]"
+        return f"Pets [name={self.name}, type={self.type}]"
