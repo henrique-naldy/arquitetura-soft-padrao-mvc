@@ -9,6 +9,9 @@ disable=
       E0015, # unrecognized-option
       C0304, # missing-final-newline
       W0012, # unknown-option-value
+      C0321, #multiple-statements
+      C0303, #trailing-whitespace
+      W0613, #unused-argument
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
