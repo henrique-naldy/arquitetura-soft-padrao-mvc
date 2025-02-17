@@ -7,3 +7,12 @@ pip install -r requiremets.txt
 pip install pylint
 
 venv\Scripts\pip freeze > requiremets.txt
+
+
+git status
+
+git add .
+
+git commit -m "  "
+
+git push origin main
